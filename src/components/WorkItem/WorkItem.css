@@ -1,0 +1,59 @@
+.media {
+    background-color: #d1cdca;
+    color:#a75629;
+    border: solid 1px #a75629;
+    padding:2%;
+    border-top-right-radius: 5%;
+    box-shadow: 3px 3px 15px 10px rgba(168,168,168, 0.6);
+}
+img {
+    max-width:15rem;
+    height: auto;
+    margin-left:10%;
+}
+.media-heading {
+    font-family: 'Coming Soon', cursive;
+    font-weight: 900;
+}
+.media-body>p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding:2%;
+}
+.work-item {
+    margin-right:-10px;
+}
+@media only screen and (max-width : 1199px) {
+    img {
+        max-width:12rem;
+        height: auto;
+        margin-left:10%;
+    }
+}
+@media only screen and (max-width : 889px) {
+    img {
+        max-width:12rem;
+        height: auto;
+        margin-left:10%;
+    }
+    .media{
+        border-top-right-radius: 0;
+        box-shadow: none;
+    }
+    .work-item {
+        margin-right:0;
+    }
+}
+@media only screen and (max-width : 449px) {
+    img {
+        max-width:10rem;
+        height: auto;
+        margin-left:10%;
+    }
+    .media{
+        border-top-right-radius: 0;
+        box-shadow: none;
+    }
+    .work-item {
+        margin-right:0;
+    }
+}

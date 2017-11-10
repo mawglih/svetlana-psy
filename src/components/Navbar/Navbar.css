@@ -1,0 +1,19 @@
+.navbar-collapse{
+    color: goldenrod !important;
+    background-color: #a75629 !important;
+}
+.navbar-header {
+    background: #a75629 !important;
+    
+}
+.navbar-header>a, .link-to {
+    color:goldenrod !important;
+    text-decoration: none;
+}
+.navbar-default {
+    background: #a75629 !important;
+}
+.link-to:hover, .link-to:active {
+    text-decoration: none !important;
+    color: wheat !important;
+}

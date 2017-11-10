@@ -1,0 +1,58 @@
+.main-title {
+    color: goldenrod !important;
+    margin-top: 0.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+}
+.main-subtitle {
+    color: goldenrod !important;
+}
+.bg-image{
+    max-height:60rem;
+    width: auto;
+    overflow: hidden;
+    margin-top: -1rem;
+  }
+@media only screen and (max-width : 1199px) {
+    .main-title {
+        margin-top: 1rem;
+        font-size: 4rem;
+    }
+    .main-subtitle {
+        font-size: 2rem;
+    }
+    .bg-image{
+        width: 100%;
+        overflow: hidden;
+        margin-top: -1rem;
+      }
+  }
+  @media only screen and (max-width : 889px) {
+    .main-title {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    .main-subtitle {
+        font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width : 449px) {
+    .main-title {
+        margin-top: .5rem;
+        font-size: 2rem;
+    }
+    .main-subtitle {
+        font-size: 2rem;
+    }
+    .bg-image{
+        width: 100%;
+        overflow: hidden;
+        margin-top: -0.5rem;
+      }
+  }
+  .jumbo-class {
+    background: #2f2e2c !important;
+  }
+  
