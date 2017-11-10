@@ -3,7 +3,7 @@ import './WorkItem.css';
 
 export default(props) => {
     return(
-        <div className="col-md-4 work-item">
+        <div className="work-item">
             <div className="media">
                 <div className="media-left media-middle">
                     <img className="media-object" src={props.imageSrc} alt={props.imageAlt} />

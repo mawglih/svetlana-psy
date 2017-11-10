@@ -5,6 +5,9 @@
     padding:2%;
     border-top-right-radius: 5%;
     box-shadow: 3px 3px 15px 10px rgba(168,168,168, 0.6);
+    width:53rem;
+    margin-right:3rem;
+    margin-bottom:3rem;
 }
 img {
     max-width:15rem;
@@ -20,7 +23,7 @@ img {
     padding:2%;
 }
 .work-item {
-    margin-right:-10px;
+    display: inline-block;
 }
 @media only screen and (max-width : 1199px) {
     img {
@@ -35,10 +38,7 @@ img {
         height: auto;
         margin-left:10%;
     }
-    .media{
-        border-top-right-radius: 0;
-        box-shadow: none;
-    }
+
     .work-item {
         margin-right:0;
     }
@@ -50,10 +50,11 @@ img {
         margin-left:10%;
     }
     .media{
-        border-top-right-radius: 0;
         box-shadow: none;
+        border: none;
+        border-radius: none;
+        margin:1%;
+        width:97%;
     }
-    .work-item {
-        margin-right:0;
-    }
+
 }
