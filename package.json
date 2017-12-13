@@ -1,9 +1,10 @@
 {
-  "name": "igor-jewel",
+  "name": "svetlana-phsychology",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "google-maps": "^3.2.1",
+    "node-sass": "^4.7.2",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
@@ -15,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile-sass": "node-sass ./src/sass/main.scss ./src/index.css -w"
   }
 }

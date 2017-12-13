@@ -6,16 +6,16 @@ class StoreLocation extends Component {
     
     render() {
         return(
-            <div className="row location-class">
+            <div className="location-class">
                 <div className="col-md-6">
                     <GoogleMap />
                 </div>
-                <div className="col-md-6 location-text-class">
-                    <h3>You can find us in Hawthorne</h3>
-                    <p>Our address is 200 Diamond bridge road</p>
-                    <p>Phone: 201-999-0000</p>
-                    <p>email: igor@store.com</p>
-                    <img src="./images/store2.png" alt="store" className="img-responsive img-fluid center-block img-class"/>
+                <div className="col-md-5 location-text-class text-center">
+                    <h3>You can find us in Galaxy</h3>
+                    <span>Our address is Alderley, Queensland, Australia</span><br />
+                    <a href="tel:888-888-0000"><span className="glyphicon glyphicon-earphone">888-888-0000</span></a><br />
+                    <span>email: fsvmtyear@gmail.com</span>
+                    <img src="./images/item1.png" alt="foto" className="img-responsive img-fluid center-block img-class"/>
                 </div>
             
             </div>

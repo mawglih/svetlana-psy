@@ -1,3 +1,4 @@
-img {
-    max-height:500px;
+.carousel-class h3, p {
+    color: #2c2d2f;
+    text-align: right;
 }

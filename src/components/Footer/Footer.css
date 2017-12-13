@@ -1,6 +1,7 @@
 .footer-class {
-    background-color: #431714;
+    background-color: rgba(168,168,168, 0.6);
+    margin-top: 1rem;
 }
 .footer-class>p{
-    color:wheat;
+    color:rgb(7, 4, 0);
 }

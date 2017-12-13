@@ -1,11 +1,21 @@
 .location-class {
     margin-top: 2%;
-    color:goldenrod;
+    color:#2c2d2f;
 }
 .location-text-class {
     padding-top:5rem;
+    color: #2c2d2f !important;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    
 }
 .img-class {
     max-height:24rem;
     width:auto;
+}
+.location-class>div {
+    margin: 2rem;
+}
+.glyphicon-earphone {
+    color: #2c2d2f;
 }

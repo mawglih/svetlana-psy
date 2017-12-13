@@ -5,7 +5,7 @@ import './ContactUs.css';
 class ContactUs extends Component {
     render() {
         return (
-            <div className="contact-class">
+            <div className="contact-class row">
                 <StoreLocation />
             </div>
         );

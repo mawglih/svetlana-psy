@@ -5,8 +5,8 @@ import './GoogleMap.css';
 function urlBuilder() {
     const API = 'AIzaSyB5fSWO-D1V5IkEcltRCT6Kg2UNw-dswpE';
     const URL = `https://www.google.com/maps/embed/v1/place?key=${API}`;
-    const coord='40.948979,-74.154718'; 
-    const address='200+Diamond+Bridge+avenue,Hawthorne,NJ';
+    const coord='-27.424140, 152.995637'; 
+    const address='Alderley+Queensland+Australia';
     const zoom='17'; 
     const RETURNED_URL = `${URL}&q=${address}&center=${coord}&zoom=${zoom}`;
     

@@ -1,19 +1,24 @@
 .main-title {
-    color: goldenrod !important;
+    color: #2c2d2f !important;
     margin-top: 0.5rem;
     margin-left:auto;
     margin-right:auto;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 5rem;
 }
+jumbo-text>p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20rem;
+}
 .main-subtitle {
-    color: goldenrod !important;
+    color: #2c2d2f !important;
+    font-family: 'Dosis', sans-serif;
 }
 .bg-image{
     max-height:60rem;
     width: auto;
     overflow: hidden;
-    margin-top: -1rem;
+    margin-top: 2rem;
   }
 @media only screen and (max-width : 1199px) {
     .main-title {
@@ -26,8 +31,11 @@
     .bg-image{
         width: 100%;
         overflow: hidden;
-        margin-top: -1rem;
+        margin-top: 1rem;
       }
+      jumbo-text>p{
+        font-size: 15rem;
+    }
   }
   @media only screen and (max-width : 889px) {
     .main-title {
@@ -37,11 +45,14 @@
     .main-subtitle {
         font-size: 2rem;
     }
+    jumbo-text>p{
+        font-size: 10rem;
+    }
   }
   @media only screen and (max-width : 449px) {
     .main-title {
         margin-top: .5rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .main-subtitle {
         font-size: 2rem;
@@ -49,10 +60,13 @@
     .bg-image{
         width: 100%;
         overflow: hidden;
-        margin-top: -0.5rem;
+        margin-top: .5rem;
       }
+      jumbo-text>p{
+        font-size: regular;
+    }
   }
   .jumbo-class {
-    background: #2f2e2c !important;
+    background: #dddfde !important;
   }
   

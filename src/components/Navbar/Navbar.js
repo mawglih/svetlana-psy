@@ -12,7 +12,7 @@ class Navigation extends Component {
                 <Navbar collapseOnSelect>
                     <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="/">Igor Jewelry</a>
+                        <a href="/">Svetlana Psychology</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     </Navbar.Header>
