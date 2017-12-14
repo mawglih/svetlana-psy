@@ -255,7 +255,7 @@ body {
   .card__text--ul {
     list-style-type: none; }
   .card__text--li {
-    border-bottom: solid 1px #f7f7f7; }
+    padding: 5px; }
 
 .header {
   height: 95vh;
