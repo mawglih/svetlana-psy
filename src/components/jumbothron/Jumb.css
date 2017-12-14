@@ -1,5 +1,5 @@
 .main-title {
-    color: #2c2d2f !important;
+    color:  white !important;
     margin-top: 0.5rem;
     margin-left:auto;
     margin-right:auto;
@@ -9,13 +9,18 @@
 .jumbo-text {
     padding: 2rem;
     margin-top: 2rem;
+    background-color: #91A2F0 !important;
 }
 .jumbo-text>p{
     font-family: 'Varela Round', sans-serif;
     font-size: 2rem;
+    text-align: center;
+}
+.jumbo-text:last-child {
+    text-align: center;
 }
 .main-subtitle {
-    color: #2c2d2f !important;
+    color: #c2c2c2 !important;
     font-family: 'Dosis', sans-serif;
 }
 .bg-image{
@@ -71,7 +76,8 @@
     }
   }
   .jumbo-class {
-    background: #dddfde !important;
+    background: rgb(57, 77, 158) !important;
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
   }
   .jumbo__line1{
     display: block;

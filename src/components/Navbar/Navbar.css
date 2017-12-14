@@ -9,8 +9,12 @@
     
 }
 .navbar-default {
-    
+    background-color: #2B3977 !important;  
+    color: white;
 }
 .link-to:hover, .link-to:active {
     
+}
+#navbar-custom {
+    background-color: #2B3977 !important;   
 }

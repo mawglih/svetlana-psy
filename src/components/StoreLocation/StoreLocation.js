@@ -12,7 +12,7 @@ class StoreLocation extends Component {
                 </div>
                 <div className="col-md-5 location-text-class text-center">
                     <h3>You can find us in Galaxy</h3>
-                    <span>Our address is Alderley, Queensland, Australia</span><br />
+                    <span>Our address is Brisbane, Queensland, Australia</span><br />
                     <a href="tel:888-888-0000"><span className="glyphicon glyphicon-earphone">888-888-0000</span></a><br />
                     <span>email: fsvmtyear@gmail.com</span>
                     <img src="./images/item1.png" alt="foto" className="img-responsive img-fluid center-block img-class"/>

@@ -12,7 +12,7 @@ class Problems extends Component {
     render(){
         return(
             <div className="section-destinations" id="section-destinations" >
-                <div className="u-margin-bottom-small u-center-text">
+                <div className="u-margin-bottom-big u-center-text">
                     <h2 className="heading-secondary">
                     С какими проблемами и запросами женщин я работаю чаще всего?
                     </h2>

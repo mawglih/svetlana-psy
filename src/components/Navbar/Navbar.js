@@ -8,8 +8,8 @@ class Navigation extends Component {
     render() {
 
         return(
-            <div>
-                <Navbar collapseOnSelect>
+            <div id="navbar-custom">
+                <Navbar collapseOnSelect inverse>
                     <Navbar.Header>
                     <Navbar.Brand>
                         <a href="/">Svetlana Psychology</a>

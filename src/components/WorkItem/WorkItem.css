@@ -25,36 +25,3 @@ img {
 .work-item {
     display: inline-block;
 }
-@media only screen and (max-width : 1199px) {
-    img {
-        max-width:12rem;
-        height: auto;
-        margin-left:10%;
-    }
-}
-@media only screen and (max-width : 889px) {
-    img {
-        max-width:12rem;
-        height: auto;
-        margin-left:10%;
-    }
-
-    .work-item {
-        margin-right:0;
-    }
-}
-@media only screen and (max-width : 449px) {
-    img {
-        max-width:10rem;
-        height: auto;
-        margin-left:10%;
-    }
-    .media{
-        box-shadow: none;
-        border: none;
-        border-radius: none;
-        margin:1%;
-        width:97%;
-    }
-
-}
