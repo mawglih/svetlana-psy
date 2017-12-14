@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Jumbo from '../../components/jumbothron/Jumb';
-import WorkList from '../../components/WorkList/WorkList';
+import Problems from '../../components/problems';
 import StoreLocation from '../../components/StoreLocation/StoreLocation';
 import Footer from '../../components/Footer/Footer';
 import Testimonial from '../testimonial';
@@ -13,7 +13,7 @@ class Home extends Component {
             <div className="container-fluid">
               <Jumbo />
               <div className="row">
-                  <WorkList />
+                  <Problems />
               </div>
               <Testimonial />
               <StoreLocation />

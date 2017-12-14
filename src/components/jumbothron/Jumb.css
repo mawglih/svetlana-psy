@@ -6,9 +6,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 5rem;
 }
-jumbo-text>p{
+.jumbo-text {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.jumbo-text>p{
     font-family: 'Varela Round', sans-serif;
-    font-size: 20rem;
+    font-size: 2rem;
 }
 .main-subtitle {
     color: #2c2d2f !important;
@@ -68,5 +72,14 @@ jumbo-text>p{
   }
   .jumbo-class {
     background: #dddfde !important;
+  }
+  .jumbo__line1{
+    display: block;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .jumbo-line2 {
+      font-size: 3.5rem !important;
+      display: block;
   }
   
