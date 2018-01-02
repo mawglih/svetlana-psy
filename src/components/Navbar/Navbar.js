@@ -25,6 +25,9 @@ class Navigation extends Component {
                             <Link to="/about" className="link-to">About</Link>
                             </li>
                             <li>
+                            <Link to="/cons" className="link-to">Consultation</Link>
+                            </li>
+                            <li>
                                 <Link to="/contactus" className="link-to">Contact Us</Link>
                             </li>
                             <li id="phone" className="hidden-xs">

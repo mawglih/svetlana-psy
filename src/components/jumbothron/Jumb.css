@@ -1,3 +1,7 @@
+/* $color-primary:#7433FF;
+$color-primary-light:rgb(173, 139, 248);
+$color-primary-dark:rgb(50, 23, 110); */
+
 .main-title {
     color:  white !important;
     margin-top: 0.5rem;
@@ -5,11 +9,13 @@
     margin-right:auto;
     font-family: 'Raleway', sans-serif;
     font-size: 5rem;
+    text-shadow: 4px 4px 8px #000000;
 }
 .jumbo-text {
     padding: 2rem;
     margin-top: 2rem;
-    background-color: #91A2F0 !important;
+    background-color: rgb(173, 139, 248)!important;
+    color: black;
 }
 .jumbo-text>p{
     font-family: 'Varela Round', sans-serif;
@@ -75,10 +81,7 @@
         font-size: regular;
     }
   }
-  .jumbo-class {
-    background: rgb(57, 77, 158) !important;
-    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
-  }
+  
   .jumbo__line1{
     display: block;
     text-transform: uppercase;

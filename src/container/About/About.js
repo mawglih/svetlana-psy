@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import MyCarousel from '../../components/Carousel/Carousel';
+import AboutMe from '../../components/aboutme';
+import AboutMeDescription from '../../components/aboutme-description';
 import './About.css';
 
 class About extends Component {
@@ -7,6 +9,8 @@ class About extends Component {
         return (
             <div className="about-class">
                 <MyCarousel />
+                <AboutMe />
+                <AboutMeDescription />
             </div>
         );
     }

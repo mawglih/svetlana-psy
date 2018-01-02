@@ -1,3 +1,10 @@
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.heading-secondary {
+    @include shadow-text-white;
+}
 .card {
     //Functionality
     perspective: 150rem;
@@ -63,13 +70,13 @@
             
         }
         &-1 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(./images/photo1.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .4), rgba($color-secondary-dark, .4)), url(./images/photo1.jpg);
         }
         &-2 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(./images/photo2.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .4), rgba($color-tertiary-dark, .4)), url(./images/photo2.jpg);
         }
         &-3 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(./images/photo3.jpg);
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light, .4), rgba($color-primary-dark, .4)), url(./images/photo3.jpg);
         }
         
     }
@@ -78,7 +85,7 @@
         font-weight: 500;
         color: $color-white;
         position: absolute;
-        top: 10rem;
+        top: 1rem;
         right: 2rem;
         text-align: right;
         width: 80%;
@@ -87,19 +94,20 @@
             font-size: 3rem;
             
         }
+
     }
     &__heading-span {
-        
+        @include shadow-text;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
         &-1 {
-            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, 1), rgba($color-secondary-dark, 1));
+            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .5), rgba($color-secondary-dark, .5));
         }
         &-2 {
-            background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, 1), rgba($color-tertiary-dark, 1));
+            background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .5), rgba($color-tertiary-dark, .5));
         }
         &-3 {
-            background-image: linear-gradient(to right bottom, rgba($color-primary-light, 1), rgba($color-primary-dark, 1));
+            background-image: linear-gradient(to right bottom, rgba($color-primary-light, .5), rgba($color-primary-dark, .5));
         }
         
     }

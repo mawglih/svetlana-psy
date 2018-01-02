@@ -17,6 +17,9 @@
     @include responsive(phone) {
         transform: skewX(0);
     }
+    &__main {
+        @include shadow-text-white;
+    }
     &__shape {
         width: 15rem;
         height: 15rem;

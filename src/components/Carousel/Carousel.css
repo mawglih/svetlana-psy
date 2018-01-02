@@ -1,4 +1,16 @@
-.carousel-class h3, p {
-    color: #2c2d2f;
-    text-align: right;
+.carousel-class h3 {
+    color: #fff;
+    padding: 2rem;
+}
+.carousel-class {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    
+}
+.carousel-caption > h3 {
+    text-shadow: 2px 2px 4px #000;
 }

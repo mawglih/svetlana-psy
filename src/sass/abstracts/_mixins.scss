@@ -40,3 +40,14 @@ $breakpoint argument
         @media(min-width: 112em) { @content };
     }
 }
+
+@mixin shadow-box-black-small {
+    box-shadow: 0 1rem 2rem rgba($color-black, .3);
+}
+
+@mixin shadow-text {
+    text-shadow: 2px 2px 4px #000000;
+}
+@mixin shadow-text-white {
+    text-shadow: 2px 2px 4px #fff;
+}

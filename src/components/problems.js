@@ -29,4 +29,4 @@ class Problems extends Component {
     }
 }
 
-export default Problems
+export default Problems;

@@ -18,7 +18,7 @@ class Home extends Component {
               <Testimonial />
               <StoreLocation />
             </div>
-            <Footer />
+            
           </div>     
       );
     }

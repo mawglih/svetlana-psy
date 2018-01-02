@@ -12,7 +12,7 @@ class Testimonial extends Component {
 
     render() {
         return(
-            <div className="section-testimonials">
+            <div className="section-testimonials ">
                 <div className="bg-video">
                 <video className="bg-video__content" autoPlay muted loop>
                     <source src='../images/video1.mp4' type="video/mp4"/>
@@ -21,13 +21,13 @@ class Testimonial extends Component {
                 </video>
             </div>
                 <div className="u-center-text u-margin-bottom-big">
-                    <h2 className="heading-secondary u-margin-bottom-small">
+                    <h2 className="heading-secondary u-margin-bottom-small story__main">
                     Что говорят
                     </h2>
                 </div> 
                 {this.renderTestimonial()}
                 <div className="u-center-text u-margin-top-big">
-                    <a  className="btn__text" href="#">Read all stories &rarr;</a>
+                    <a  className="btn__text" href="/testimall">Read all stories &rarr;</a>
                 </div>
             </div>
         );

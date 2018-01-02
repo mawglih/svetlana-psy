@@ -1,0 +1,27 @@
+.about-carousel-heading {
+    margin:1rem auto !important;
+    padding-left: 2rem !important;
+    @include shadow-text;
+}
+.aboutme-list {
+    list-style-type: none !important;
+    padding-left: 2rem;
+    @include responsive(tab-port) {
+        margin-top:2rem;
+    }
+}
+.aboutme-list-item {
+    color:$color-primary-dark;
+    font-weight: 600;
+    line-height: 3.3rem;
+    @include responsive(tab-port) {
+        line-height:4rem;
+        font-weight: 800;
+    }
+
+}
+.about-desc-item {
+    &:first-child {
+        padding-top: 2rem !important;
+    }
+}
