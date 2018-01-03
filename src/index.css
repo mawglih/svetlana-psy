@@ -384,6 +384,21 @@ body {
       .steps__block-price p:hover {
         transform: scale(1.05) translateY(2px); }
 
+.cert {
+  max-width: 400px;
+  height: 100%; }
+  .cert__card-text {
+    color: #fff !important; }
+  .cert__heading {
+    color: #2E1965;
+    text-align: center;
+    margin: 3rem 5rem;
+    transition: all .2s; }
+    .cert__heading:hover {
+      transform: scale(1.1);
+      font-size: 3rem;
+      font-weight: 300; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.6), rgba(119, 119, 119, 0.6));

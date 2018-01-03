@@ -11,10 +11,11 @@ class StoreLocation extends Component {
                     <GoogleMap />
                 </div>
                 <div className="col-md-5 location-text-class text-center">
-                    <h3>You can find us in Galaxy</h3>
-                    <span>Our address is Brisbane, Queensland, Australia</span><br />
-                    <a href="tel:888-888-0000"><span className="glyphicon glyphicon-earphone">888-888-0000</span></a><br />
-                    <span>email: fsvmtyear@gmail.com</span>
+                    <h3>Со мной можно связаться:</h3>
+                    <span>Мой адрес: Brisbane, Queensland, Australia</span><br />
+                    <span><i className="fa fa-skype"></i> Skype: lana.love970</span><br />
+                    <a href="tel:614-186-43088"><span className="glyphicon glyphicon-earphone"> 614-186-43088</span></a><span> (Whats App, Viber)</span><br />
+                    <a href="mailto:fsvmtyear@gmail.com"><span>email: fsvmtyear@gmail.com</span></a>
                     <img src="./images/item1.png" alt="foto" className="img-responsive img-fluid center-block img-class"/>
                 </div>
             

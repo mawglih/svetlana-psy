@@ -16,7 +16,6 @@ class Home extends Component {
                   <Problems />
               </div>
               <Testimonial />
-              <StoreLocation />
             </div>
             
           </div>     
