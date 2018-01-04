@@ -12,12 +12,12 @@ class Certificates extends Component {
 
     render() {
         return(
-            <div >
+            <div className="row">
                 <h2 className="heading-secondary cert__heading">Мои сертификаты</h2>
-                <div className="row">
+                <div className="cert">
                     {this.renderCerts()}
                 </div>
-                
+
             </div>
         );
     }

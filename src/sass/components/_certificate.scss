@@ -1,8 +1,17 @@
 .cert {
-    max-width: 400px;
-    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @include responsive(tab-port) {
+        flex-direction:column;
+        justify-content:center;
+    }
     &__card {
-    
+      padding:.5rem;
+      margin: 2rem;
+      flex: 1 1 30%;
         &-image{
 
         }

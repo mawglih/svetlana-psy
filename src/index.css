@@ -385,10 +385,21 @@ body {
         transform: scale(1.05) translateY(2px); }
 
 .cert {
-  max-width: 400px;
-  height: 100%; }
-  .cert__card-text {
-    color: #fff !important; }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media (max-width: 990px) {
+    .cert {
+      flex-direction: column;
+      justify-content: center; } }
+  .cert__card {
+    padding: .5rem;
+    margin: 2rem;
+    flex: 1 1 30%; }
+    .cert__card-text {
+      color: #fff !important; }
   .cert__heading {
     color: #2E1965;
     text-align: center;

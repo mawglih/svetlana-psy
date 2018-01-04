@@ -1,10 +1,10 @@
 export const DiplomaData = [
-    
+
     {
         image: './images/diplomas/d2.png',
         text: 'OH-CARDS in Moscow'
     },
-    
+
     {
         image: './images/diplomas/d4.png',
         text: 'Practical Psychology Moscow'
@@ -32,13 +32,13 @@ export const DiplomaData = [
     {
         image: './images/diplomas/d10.png',
         text: 'Mediative Klondaik Moscow'
+    },
+    {
+        image: './images/diplomas/d1.png',
+        text: 'ThetaHealing Institute of Knowledge'
+    },
+    {
+        image: './images/diplomas/d3.png',
+        text: 'ThetaHealing Institute of Knowledge'
     }
-    // {
-    //     image: './images/diplomas/d1.png',
-    //     text: 'ThetaHealing Institute of Knowledge'
-    // },
-    // {
-    //     image: './images/diplomas/d3.png',
-    //     text: 'ThetaHealing Institute of Knowledge'
-    // }
 ];
