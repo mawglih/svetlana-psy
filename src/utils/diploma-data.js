@@ -32,13 +32,5 @@ export const DiplomaData = [
     {
         image: './images/diplomas/d10.png',
         text: 'Mediative Klondaik Moscow'
-    },
-    {
-        image: './images/diplomas/d1.png',
-        text: 'ThetaHealing Institute of Knowledge'
-    },
-    {
-        image: './images/diplomas/d3.png',
-        text: 'ThetaHealing Institute of Knowledge'
     }
-];
+]

@@ -27,7 +27,7 @@ class Testimonial extends Component {
                 </div> 
                 {this.renderTestimonial()}
                 <div className="u-center-text u-margin-top-big">
-                    <a  className="btn__text" href="/testimall">Read all stories &rarr;</a>
+                    <a  className="btn__text" href="/testimall">Читать все отзывы &rarr;</a>
                 </div>
             </div>
         );

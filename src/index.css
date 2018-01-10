@@ -108,7 +108,7 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -397,7 +397,7 @@ body {
   .cert__card {
     padding: .5rem;
     margin: 2rem;
-    flex: 1 1 30%; }
+    flex: 1 1 20%; }
     .cert__card-text {
       color: #fff !important; }
   .cert__heading {
@@ -442,6 +442,9 @@ body {
   padding-left: 2rem !important;
   text-shadow: 2px 2px 4px #000000; }
 
+.aboutme-div {
+  max-height: 500px; }
+
 .aboutme-list {
   list-style-type: none !important;
   padding-left: 2rem; }
@@ -452,10 +455,10 @@ body {
 .aboutme-list-item {
   color: #380552;
   font-weight: 600;
-  line-height: 3.3rem; }
+  line-height: 2.5rem; }
   @media (max-width: 990px) {
     .aboutme-list-item {
-      line-height: 4rem;
+      line-height: 3rem;
       font-weight: 800; } }
 
 .about-desc-item:first-child {
@@ -463,12 +466,10 @@ body {
 
 .cons__class {
   height: 70vh;
-  background-image: linear-gradient(to right bottom, rgba(207, 207, 207, 0.6), rgba(153, 153, 153, 0.6)), url(./images/photo4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(207, 207, 207, 0.2), rgba(153, 153, 153, 0.2)), url(./images/photo4.jpg);
   background-size: 100%;
-  background-position: bottom;
-  position: relative;
-  -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%); }
+  background-position: top;
+  position: relative; }
 
 .cons__heading {
   position: absolute;

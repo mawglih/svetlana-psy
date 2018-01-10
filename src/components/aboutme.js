@@ -11,10 +11,11 @@ class AboutMe extends Component {
     
     render() {
         return(
+            <div className="aboutme-div col-md-5">
             <ul className="aboutme-list">
                 {this.renderAbout()}
             </ul>
- 
+            </div>
         )
     }
 }

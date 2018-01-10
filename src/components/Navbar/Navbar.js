@@ -12,35 +12,29 @@ class Navigation extends Component {
                 <Navbar collapseOnSelect inverse>
                     <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="/">Svetlana Psychology</a>
+                        <a href="/">Светлана Финашина</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                     <ul id="nav-list" className="nav navbar-nav navbar-right">
                             <li>
-                                <Link to="/" className="link-to">Home</Link>
+                                <Link to="/" className="link-to">Главная</Link>
                             </li>
                             <li>
-                            <Link to="/about" className="link-to">About</Link>
+                            <Link to="/about" className="link-to">Обо мне</Link>
                             </li>
                             <li>
-                            <Link to="/cons" className="link-to">Consultation</Link>
+                            <Link to="/cons" className="link-to">Услуги</Link>
                             </li>
                             <li>
-                                <Link to="/contactus" className="link-to">Contact Us</Link>
+                                <Link to="/contactus" className="link-to">Контакты</Link>
                             </li>
-                            <li id="phone" className="hidden-xs">
-                            <a href="tel:888-888-0000"><span className="glyphicon glyphicon-earphone link-to">888-888-0000</span></a>
-                            </li>
+                            
                         </ul>
                     </Navbar.Collapse>
                 </Navbar>
-                <div id="call-btn" className="visible-xs text-center">
-                    <a className="btn link-to" href="tel:888-888-0000">
-                    <span className="glyphicon glyphicon-earphone link-to "></span> 888-888-0000
-                    </a>
-                </div>
+
             </div>
         )
     }

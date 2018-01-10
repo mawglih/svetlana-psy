@@ -9,8 +9,12 @@ class About extends Component {
     render() {
         return (
             <div className="about-class">
+            <h1 className="about-carousel-heading">Особенности работы со мной:</h1>
+            <div className="row">
                 <MyCarousel />
                 <AboutMe />
+            </div>
+                
                 <AboutMeDescription />
                 <Certificates />
             </div>

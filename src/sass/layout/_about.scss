@@ -3,6 +3,9 @@
     padding-left: 2rem !important;
     @include shadow-text;
 }
+.aboutme-div {
+    max-height: 500px;
+}
 .aboutme-list {
     list-style-type: none !important;
     padding-left: 2rem;
@@ -13,9 +16,9 @@
 .aboutme-list-item {
     color:$color-primary-dark;
     font-weight: 600;
-    line-height: 3.3rem;
+    line-height: 2.5rem;
     @include responsive(tab-port) {
-        line-height:4rem;
+        line-height:3rem;
         font-weight: 800;
     }
 

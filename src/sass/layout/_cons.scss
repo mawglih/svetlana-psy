@@ -1,11 +1,11 @@
 .cons__class {
     height: 70vh;
-    background-image: linear-gradient( to right bottom, rgba($color-grey-light-2, 0.6), rgba($color-grey-dark-2, 0.6)), url(./images/photo4.jpg);
+    background-image: linear-gradient( to right bottom, rgba($color-grey-light-2, 0.2), rgba($color-grey-dark-2, 0.2)), url(./images/photo4.jpg);
     background-size: 100%;
-    background-position: bottom;
+    background-position: top;
     position: relative;
-    -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
-    clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
+    // -webkit-clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
+    // clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
     
 }
 .cons__heading {
