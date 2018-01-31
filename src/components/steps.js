@@ -60,8 +60,8 @@ export default (props) => {
                     <p className="steps__block-text">Новейшие Игровые технологии, такие как Финансовая Игра “Карман” и “Путь Души” - методы, позволяющие в игровой форме определить,какие привычки или мысли мешают вам зарабатывать деньги, быть счастливыми. Вы понимаете,в чем ваши ресурсы, какие стратегии задействовать. За несколько часов вы осознаете причины своих неудач и начинаете осознанное движение к новой цели.</p>
                 </div>
             </div>
-            <h4 className="steps__heading-2 steps__heading-2-e5">Эти методы работы я использую по желанию клиента.</h4>
-            <a href="/testimall" className="btn__text steps__heading-2-e6">Отзывы о работе со мной читайте здесь. &rarr;</a>
+    {props.eng ? <h4 className="steps__heading-2 steps__heading-2-e5">I use these methods of work at the request of the client</h4> : <h4 className="steps__heading-2 steps__heading-2-e5">Эти методы работы я использую по желанию клиента.</h4> }
+            <a href="/testimall" className="btn__text steps__heading-2-e6">{props.eng ?  <span>My clients' testimonials</span> : <span>Отзывы о работе со мной читайте здесь.</span>} &rarr;</a>
         </div>
     )
 }

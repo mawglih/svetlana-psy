@@ -2,35 +2,35 @@ export const DiplomaData = [
 
     {
         image: './images/diplomas/d2.png',
-        text: 'OH-CARDS in Moscow'
+        text: 'Применение OH-CARDS в психотерапии'
     },
 
     {
         image: './images/diplomas/d4.png',
-        text: 'Practical Psychology Moscow'
+        text: 'Диплом практической психологии'
     },
     {
         image: './images/diplomas/d5.png',
-        text: 'The Science and Art of Transformation'
+        text: 'Наука и искусство трансформации'
     },
     {
         image: './images/diplomas/d6.png',
-        text: 'Matrix Energetic Fundamentals'
+        text: 'Фундаментальная энергетика'
     },
     {
         image: './images/diplomas/d7.png',
-        text: 'Rapid Personal Transformation - Level 1'
+        text: 'Быстрое персональное изменение - уровень 1'
     },
     {
         image: './images/diplomas/d8.png',
-        text: 'Rapid Personal Transformation - Level 2'
+        text: 'Быстрое персональное изменение - уровень 2'
     },
     {
         image: './images/diplomas/d9.png',
-        text: 'Remote Viewing'
+        text: 'Дистанционное видение'
     },
     {
         image: './images/diplomas/d10.png',
-        text: 'Mediative Klondaik Moscow'
+        text: 'Медиативный клондайк'
     }
 ]

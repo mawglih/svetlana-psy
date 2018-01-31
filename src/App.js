@@ -40,13 +40,13 @@ class App extends Component {
   render() {
     return (
       
-        <div className="App container-fluid">
+        <div className="container-fluid">
          <Navbar handleClick = {this.handleClick} lang={this.state.lang} eng={this.state.eng} />
          <Route path="/cons" component={() => <Cons eng={this.state.eng}/>} />
          <Route path="/about" component={() => <About eng={this.state.eng}/>} />
          <Route path="/contactus" component={() => <ContactUs eng={this.state.eng}/>} />
          <Route path="/testimall" component={() => <TestimonialAll eng={this.state.eng}/>} />
-         <Route path="/" component={() => <Home eng={this.state.eng}/>} />
+         <Route exact path="/" component={() => <Home eng={this.state.eng}/>} />
          <Footer />
         </div>   
 

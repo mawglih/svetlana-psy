@@ -1,12 +1,32 @@
 import React, { Component } from 'react';
 import AboutMeDescriptionItem from './aboutme-description-item';
 import { AboutMeData2 } from '../utils/aboutme-data2';
+import { AboutMeDataEng2 } from '../utils/aboutme-data-eng2';
 
 class AboutMeDescription extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            Prop: AboutMeData2
+        }
+    }
+    
+    componentDidMount() {
+        
+        if(this.props.eng) {
+           this.setState({
+               Prop: AboutMeDataEng2
+           });
+        } else {
+            this.setState({
+                Prop: AboutMeData2
+            });
+        }
+    }
 
     renderItems() {
-        return AboutMeData2.map((item) => {
-            return <AboutMeDescriptionItem key={AboutMeData2.indexOf(item)} text={item.text} />
+        return this.state.Prop.map((item,index) => {
+            return <AboutMeDescriptionItem key={index} text={item.text} />
         });
     }
 
@@ -23,7 +43,7 @@ class AboutMeDescription extends Component {
 
                 {this.renderItems()}
                 <div className="u-center-text u-margin-top-big">
-                    <a  className="btn__text" href="/cons">Подробнее о том, как проходят консультации читайте здесь &rarr;</a>
+        <a  className="btn__text" href="/cons">{this.props.eng ? <span>To find more about my consulataions</span> : <span>Подробнее о том, как проходят консультации читайте здесь</span>} &rarr;</a>
                 </div>
             </div>
         );
