@@ -12,16 +12,41 @@ import  TestimonialAll from './components/testimonial-all';
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        eng : false,
+        lang: 'ENG'
+    };
+    this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+      if(this.state.eng) {
+          this.setState({
+              eng: false,
+              lang: 'ENG'
+          });
+      } else {
+          this.setState({
+              eng: true,
+              lang: 'RUS'
+          });
+      }
+      
+
+  }
+
   render() {
     return (
       
         <div className="App container-fluid">
-         <Navbar/>
-         <Route path="/cons" component={Cons} />
-         <Route path="/about" component={About} />
-         <Route path="/contactus" component={ContactUs} />
-         <Route path="/testimall" component={TestimonialAll} />
-         <Route path="/" exact component={Home} />
+         <Navbar handleClick = {this.handleClick} lang={this.state.lang} eng={this.state.eng} />
+         <Route path="/cons" component={() => <Cons eng={this.state.eng}/>} />
+         <Route path="/about" component={() => <About eng={this.state.eng}/>} />
+         <Route path="/contactus" component={() => <ContactUs eng={this.state.eng}/>} />
+         <Route path="/testimall" component={() => <TestimonialAll eng={this.state.eng}/>} />
+         <Route path="/" component={() => <Home eng={this.state.eng}/>} />
          <Footer />
         </div>   
 

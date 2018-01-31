@@ -1,4 +1,4 @@
-export const Item = [{
+export const ItemEng = [{
         name: 'Help at any stage',
         imageSrc: './images/item1.png',
         imageAlt: 'help',
@@ -13,17 +13,17 @@ export const Item = [{
         textSmall: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
     },
     {
-        name: 'Практический лайф-коуч',
-        namePers: 'Светлана Финашина',
-        nameH3: 'Помогаю женщинам преодолевать трудности, справляться со сложными ситуациями, становиться счастливыми',
+        name: 'Practical life coach',
+        namePers: 'Svetlana Finashina-Walker',
+        nameH3: 'I help people overcome difficulties, cope with difficult situations, become happy',
         imageSrc: './images/item1.png',
         imageAlt: 'wait',
-        text: 'Помогаю женщинам преодолевать трудности, справляться со сложными ситуациями, становиться счастливыми.',
-        textSmall: 'Консультации онлайн: в Skype. Личные консультации в городе Брисбан (Австралия)',
-        textStrong: 'Поддержка всех клиенток, прошедших консультации. Первая консультация (60 минут) бесплатна.',
-        link1: 'Главная',
-        link2: 'Обо мне',
-        link3: 'Услуги',
-        link4: 'Контакты'
+        text: 'I help people overcome difficulties, cope with difficult situations, become happy.        ',
+        textSmall: 'Consultations online in Skype or WhatsApp. Personal consultations in the city of Brisbane (Australia)',
+        textStrong: 'Support for all clients who have been consulted. The first consultation (60 minutes) is free of charge.',
+        link1: 'Home',
+        link2: 'About',
+        link3: 'Service',
+        link4: 'Contact'
     }
 ];

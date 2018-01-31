@@ -9,14 +9,15 @@ class About extends Component {
     render() {
         return (
             <div className="about-class">
-            <h1 className="about-carousel-heading">Особенности работы со мной:</h1>
+            {this.props.eng ? <h1 className="about-carousel-heading">How do I work with clients:</h1> : 
+            <h1 className="about-carousel-heading">Особенности работы со мной:</h1>}
             <div className="row">
-                <MyCarousel />
-                <AboutMe />
+                <MyCarousel eng={this.props.eng}/>
+                <AboutMe eng={this.props.eng}/>
             </div>
                 
-                <AboutMeDescription />
-                <Certificates />
+                <AboutMeDescription eng={this.props.eng}/>
+                <Certificates eng={this.props.eng}/>
             </div>
         );
     }

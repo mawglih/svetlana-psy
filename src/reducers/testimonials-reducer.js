@@ -1,4 +1,4 @@
-import { Testimonial } from '../utils/testtim_data';
+import { Testimonial } from '../utils/testim_data';
 export default function() {
     //console.log(DestinationsData);
     return Testimonial;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TestimonialItem from '../components/testimonial-item';
-import { Testimonial } from '../utils/testtim_data';
+import { Testimonial } from '../utils/testim_data';
 
 class TestimonialAll extends Component {
 

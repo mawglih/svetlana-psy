@@ -9,11 +9,11 @@ class Home extends Component {
       return (
           <div className="Home">
             <div className="container-fluid">
-              <Jumbo />
+              <Jumbo eng={this.props.eng}/>
               <div className="row">
-                  <Problems />
+                  <Problems eng={this.props.eng}/>
               </div>
-              <Testimonial />
+              <Testimonial eng={this.props.eng}/>
             </div>
             
           </div>

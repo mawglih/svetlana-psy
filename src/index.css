@@ -196,6 +196,19 @@ body {
   transform: translateY(0);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
 
+.btn-lang {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1px;
+  border-radius: 3px;
+  width: 50px;
+  text-align: center;
+  margin-top: 10px; }
+  .btn-lang__RUS {
+    background-color: blue; }
+  .btn-lang__ENG {
+    background-color: red; }
+
 .row {
   margin-left: 0 !important;
   margin-right: 0 !important; }
