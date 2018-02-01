@@ -5,7 +5,7 @@ export const AboutMeDataEng = [{
         text: 'More than 200 clients who changed their destiny after working out their problems together with me.'
     },
     {
-        text: 'Professional Education - Institute of Integrative Psychology, Moscow (11/02 / 2016-27 / 11/2016).'
+        text: 'Professional Education - Institute of Integrative Psychology, Moscow (11/02/2016  - 27/11/2016).'
     },
     {
         text: 'Master Reiki, RPT Practitioner, Viewer (Remote Vision) - more than 7 years of practice.'

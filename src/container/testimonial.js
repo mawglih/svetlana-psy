@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TestimonialItem from '../components/testimonial-item';
 import { TestimonialShort } from '../utils/testim_short';
 import { TestimonialShortEng } from '../utils/testim_short_eng';
+import { Link } from 'react-router-dom';
 
 class Testimonial extends Component {
     constructor(props) {
@@ -24,8 +25,8 @@ class Testimonial extends Component {
     }
 
     renderTestimonial() {
-        return this.state.Prop.map((test) => {
-            return <TestimonialItem key = {test.name} name = {test.name} city = {test.city}           text = {test.text}/>
+        return this.state.Prop.map((test, index) => {
+            return <TestimonialItem key = {index} name = {test.name} city = {test.city}           text = {test.text}/>
         });
     }
 
@@ -46,7 +47,7 @@ class Testimonial extends Component {
             </div> 
             {this.renderTestimonial()} 
             <div className="u-center-text u-margin-top-big">
-                <a className="btn__text" href="/testimall"> {this.state.Prop[1].heading2} &rarr; </a> 
+                <Link to="/testimall" className="btn__text"> {this.state.Prop[1].heading2} &rarr; </Link> 
             </div> 
         </div>
         );

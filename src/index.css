@@ -397,6 +397,12 @@ body {
       .steps__block-price p:hover {
         transform: scale(1.05) translateY(2px); }
 
+.hiddenClass {
+  display: none; }
+
+.visibleClass {
+  display: initial; }
+
 .cert {
   display: flex;
   flex-direction: row;

@@ -8,10 +8,10 @@ class ContactUs extends Component {
         return (
             <div>
             <div className="contact-class row">
-                <StoreLocation />
+                <StoreLocation eng={this.props.eng}/>
                 
             </div>
-            <Testimonial />
+            <Testimonial eng={this.props.eng}/>
             </div>
             
         );

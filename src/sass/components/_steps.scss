@@ -1,5 +1,5 @@
 .steps {
-    color:$color-grey-light-1;
+    color: $color-grey-light-1;
     &__heading {
         color: $color-tertiary-dark;
         text-align: center;
@@ -8,16 +8,13 @@
         &:hover {
             transform: scale(1.1) translateY(10px);
         }
-        &-pos {
-         
-        }
+        &-pos {}
         &-sp1 {
             display: block;
             font-size: 110%;
         }
         &-sp2 {
             display: block;
-
         }
         &-2 {
             padding: 3px;
@@ -25,10 +22,8 @@
             color: $color-white;
             display: inline-block;
             width: 40%;
-            
-   
             &-e1 {
-                color:$color-primary;
+                color: $color-primary;
             }
             &-e2 {
                 color: $color-secondary-dark;
@@ -38,7 +33,6 @@
             }
             &-e4 {
                 color: $color-primary-dark;
-
             }
             &-e5 {
                 color: $color-primary;
@@ -46,7 +40,6 @@
                     @include shadow-text;
                     width: 90%;
                 }
-                
             }
             &-e6 {
                 @include shadow-text-white;
@@ -57,7 +50,6 @@
                     display: block;
                     font-size: 150%;
                 }
-                
             }
             &-pos {
                 width: 60%;
@@ -70,17 +62,14 @@
                     text-align: center;
                     width: 100%;
                 }
-               
             }
             @include responsive(tab-port) {
                 display: block;
                 color: white;
                 padding: 2rem;
                 text-align: center;
-
             }
         }
-    
     }
     &__step {
         background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 30%, transparent 30%);
@@ -91,25 +80,21 @@
         }
         &-e1 {
             background-color: $color-primary;
-            
         }
         &-e2 {
             background-color: $color-secondary-dark;
-            
         }
         &-e3 {
             background-color: $color-tertiary-dark;
-            
         }
         &-e4 {
             background-color: $color-primary-dark;
-            
         }
     }
     &__block {
         display: inline-block;
         position: relative;
-        width: 55%;    
+        width: 55%;
         @include responsive(tab-port) {
             width: 90%;
             padding-left: 3rem;
@@ -126,5 +111,12 @@
             }
         }
     }
-    
+}
+
+.hiddenClass {
+    display: none;
+}
+
+.visibleClass {
+    display: initial;
 }
