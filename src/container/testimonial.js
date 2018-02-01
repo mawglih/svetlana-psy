@@ -26,7 +26,7 @@ class Testimonial extends Component {
 
     renderTestimonial() {
         return this.state.Prop.map((test, index) => {
-            return <TestimonialItem key = {index} name = {test.name} city = {test.city}           text = {test.text}/>
+            return <TestimonialItem key={index} name={test.name} city={test.city}  text=test.text}/>
         });
     }
 
