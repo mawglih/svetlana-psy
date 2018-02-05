@@ -18,6 +18,6 @@ export const ProblemEng = [{
         imageSrc: './images/photo3.jpg',
         imageAlt: 'career',
         heading: 'With what problems and demands of people do I work most often?',
-        text: ['I do not like my job', 'I want to change the job or career, but am scared', 'I can not realize my ideas, because I\'m afraid that it will not work out', 'I do not know what direction I want to take', 'I want to start my own business, but I do not know where to start', 'I can not get any progression at work']
+        text: ['I do not like my job', 'I want to change the job or career, but am scared', 'I can not realise my dreams, because I\'m afraid that it will not work out', 'I do not know what direction I want to take', 'I want to start my own business, but I do not know where to start', 'I can not get any progression at work']
     }
 ];
