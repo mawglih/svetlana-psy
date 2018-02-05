@@ -13,13 +13,13 @@ export const ItemEng = [{
         textSmall: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
     },
     {
-        name: 'Practical life coach',
+        name: 'life coach',
         namePers: 'Svetlana Finashina-Walker',
         nameH3: 'I help people overcome difficulties, cope with difficult situations, become happy',
         imageSrc: './images/item1.png',
         imageAlt: 'wait',
-        text: 'I help people overcome difficulties, cope with difficult situations, become happy.        ',
-        textSmall: 'Consultations online in Skype or WhatsApp. Personal consultations in the city of Brisbane (Australia)',
+        text: 'I help people overcome difficulties , cope with demanding situations and become happy.',
+        textSmall: 'Consultations online on Skype or WhatsApp. Personal consultations in the city of Brisbane (Australia)',
         textStrong: 'Support for all clients who have been consulted. The first consultation (60 minutes) is free of charge.',
         link1: 'Home',
         link2: 'About',

@@ -13,7 +13,7 @@ export const Item = [{
         textSmall: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
     },
     {
-        name: 'Практический лайф-коуч',
+        name: 'лайф-коуч',
         namePers: 'Светлана Финашина',
         nameH3: 'Помогаю женщинам преодолевать трудности, справляться со сложными ситуациями, становиться счастливыми',
         imageSrc: './images/item1.png',
