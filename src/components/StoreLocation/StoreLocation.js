@@ -37,7 +37,7 @@ class StoreLocation extends Component {
                     <span><i className="fa fa-skype"></i> Skype: lana.love970</span><br />
                     <a href="tel:614-186-43088"><span className="glyphicon glyphicon-earphone"> 614-186-43088</span></a><span> (Whats App, Viber)</span><br />
                     <a href="mailto:fsvmtyear@gmail.com"><span>email: fsvmtyear@gmail.com</span></a>
-                    <img src="./images/item2.png" alt="foto" className="img-responsive img-fluid center-block img-class"/>
+                    <img src="./images/item3.png" alt="foto" className="img-responsive img-fluid center-block img-class"/>
                 </div>
             
             </div>
