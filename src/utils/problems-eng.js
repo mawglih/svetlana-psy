@@ -14,7 +14,7 @@ export const ProblemEng = [{
     },
     {
         id: 3,
-        name: 'Self-realization, mission, career',
+        name: 'Self-realisation, mission, career',
         imageSrc: './images/photo3.jpg',
         imageAlt: 'career',
         heading: 'With what problems and demands of people do I work most often?',
