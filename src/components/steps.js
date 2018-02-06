@@ -70,7 +70,7 @@ render() {
                 
                     </div>
                     {
-                <StepsItem hiddenClass="hiddenClass" text1={this.state.Prop[2].text2} text2={this.state.Prop[2].text2} text3={this.state.Prop[2].text3} text4={this.state.Prop[2].text4}/>
+                <StepsItem hiddenClass="hiddenClass" text1={this.state.Prop[2].text1} text2={this.state.Prop[2].text2} text3={this.state.Prop[2].text3} text4={this.state.Prop[2].text4}/>
                 }
                 
                 </div>

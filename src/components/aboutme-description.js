@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AboutMeDescriptionItem from './aboutme-description-item';
 import { AboutMeData2 } from '../utils/aboutme-data2';
 import { AboutMeDataEng2 } from '../utils/aboutme-data-eng2';
+import { Link } from 'react-router-dom';
 
 class AboutMeDescription extends Component {
     constructor(props) {
@@ -43,7 +44,7 @@ class AboutMeDescription extends Component {
 
                 {this.renderItems()}
                 <div className="u-center-text u-margin-top-big">
-        <a  className="btn__text" href="/cons">{this.props.eng ? <span>To find more about my consulataions</span> : <span>Подробнее о том, как проходят консультации читайте здесь</span>} &rarr;</a>
+        <Link to="/cons"  className="btn__text" >{this.props.eng ? <span>To find more about my consulataions</span> : <span>Подробнее о том, как проходят консультации читайте здесь</span>} &rarr;</Link>
                 </div>
             </div>
         );

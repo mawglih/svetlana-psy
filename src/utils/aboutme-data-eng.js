@@ -11,7 +11,7 @@ export const AboutMeDataEng = [{
         text: 'Master Reiki, RPT Practitioner, Viewer (Remote Viewing)) - more than 7 years of practice.'
     },
     {
-        text: 'Instructor of ThethaHealing, technology of self-development.'
+        text: 'Instructor of ThetaHealing, technology of self-development.'
     },
     {
         text: 'Proficient in working with OH cards.'
