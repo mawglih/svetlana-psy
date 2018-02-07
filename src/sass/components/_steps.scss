@@ -22,6 +22,9 @@
             color: $color-white;
             display: inline-block;
             width: 40%;
+            @include responsive(tab-port) {
+                width: 100%;
+            }
             &-e1 {
                 color: $color-primary;
             }
@@ -57,7 +60,7 @@
                     font-size: 2.5rem;
                 }
                 @include responsive(tab-port) {
-                    display: block;
+                    // display: block;
                     color: white;
                     text-align: center;
                     width: 100%;

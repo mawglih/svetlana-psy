@@ -25,3 +25,8 @@
     color: white !important;
     text-decoration: none;
 }
+
+.selected__navlink {
+    color: white;
+    font-size: 105%;
+}

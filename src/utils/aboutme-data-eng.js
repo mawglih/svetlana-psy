@@ -20,6 +20,6 @@ export const AboutMeDataEng = [{
         text: 'I actively use the latest game technologies, such as the financial game "Pocket" and "The Way of the Soul"'
     },
     {
-        text: 'I have been happily married for 2 years and live in the sunny city of Brisbane, Australia.'
+        text: 'I have been happily married and live in the sunny city of Brisbane, Australia.'
     }
 ];

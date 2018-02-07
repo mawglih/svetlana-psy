@@ -1,28 +1,37 @@
 .about-carousel-heading {
-    margin:1rem auto !important;
+    margin: 1rem auto !important;
     padding-left: 2rem !important;
     @include shadow-text;
 }
+
 .aboutme-div {
     max-height: 500px;
 }
+
 .aboutme-list {
     list-style-type: none !important;
     padding-left: 2rem;
     @include responsive(tab-port) {
-        margin-top:2rem;
+        margin-top: 2rem;
     }
 }
+
 .aboutme-list-item {
-    color:$color-primary-dark;
+    color: $color-primary-dark;
     font-weight: 600;
     line-height: 2.5rem;
     @include responsive(tab-port) {
-        line-height:3rem;
+        line-height: 3rem;
         font-weight: 800;
+        font-size: 150%;
     }
-
+    @include responsive(phone) {
+        line-height: 3rem;
+        font-weight: 700;
+        font-size: 120%;
+    }
 }
+
 .about-desc-item {
     &:first-child {
         padding-top: 2rem !important;
