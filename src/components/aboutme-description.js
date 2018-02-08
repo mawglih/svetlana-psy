@@ -44,7 +44,7 @@ class AboutMeDescription extends Component {
 
                 {this.renderItems()}
                 <div className="u-center-text u-margin-top-big">
-        <Link to="/cons"  className="btn__text" >{this.props.eng ? <span>To find more about my consulataions</span> : <span>Подробнее о том, как проходят консультации читайте здесь</span>} &rarr;</Link>
+        <Link to="/cons"  className="btn__text" >{this.props.eng ? <span>To find more about my consultations</span> : <span>Подробнее о том, как проходят консультации читайте здесь</span>} &rarr;</Link>
                 </div>
             </div>
         );

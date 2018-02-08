@@ -8,7 +8,7 @@ export const AboutMeDataEng = [{
         text: 'Professional Education - Institute of Integrative Psychology, Moscow (11/02/2016 - 27/11/2016).'
     },
     {
-        text: 'Master Reiki, RPT Practitioner, Viewer (Remote Viewing)) - more than 7 years of practice.'
+        text: 'Master Reiki, RPT Practitioner, Viewer (Remote Viewing) - more than 7 years of practice.'
     },
     {
         text: 'Instructor of ThetaHealing, technology of self-development.'

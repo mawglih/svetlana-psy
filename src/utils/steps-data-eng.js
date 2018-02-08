@@ -1,6 +1,6 @@
 export const StepsDataEng = [{
         text1: 'A series of paid consultations. Depending on your requirements, you may need from 1 to 10 sessions to fully resolve your problem. One session lasts from 60 to 90 minutes, but if necessary, the time can be increased without additional payment.',
-        text2: 'Sometimes, in order to understand the cause of their situations or cope with their difficulties, one paid session is enough. As a rule, this is a life situation in which you do not know what to do or you lack self-confidence, courage or motivation. For example: ask for a salary increase, find out the relationship with your partner, get through an important interview, competently go on a first date, etc.',
+        text2: 'Sometimes, in order to understand the cause of their situations or cope with their difficulties, one paid session is enough. As a rule, this is a life situation in which you do not know what to do or you lack self-confidence, courage or motivation. For example: ask for a salary increase, sort out the relationship with your partner, get through an important interview, competently go on a first date, etc.',
         text3: 'Most of the deep-seated problems associated with relationships, fears, low self-esteem, needs more elaboration with 3-10 sessions.',
         buttonText: 'The cost of 1 session is $50 AUD.'
     },
