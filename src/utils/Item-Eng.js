@@ -20,7 +20,7 @@ export const ItemEng = [{
         imageAlt: 'wait',
         text: 'I help people overcome difficulties , cope with demanding situations and become happy.',
         textSmall: 'Consultations online on Skype or WhatsApp. Personal consultations in the city of Brisbane (Australia)',
-        textStrong: 'Support for all clients who have been consulted. The first consultation (60 minutes) is free of charge.',
+        textStrong: 'Support for all clients who have been consulted. The first consultation (15 minutes) is free of charge.',
         link1: 'Home',
         link2: 'About',
         link3: 'Service',

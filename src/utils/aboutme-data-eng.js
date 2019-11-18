@@ -20,6 +20,9 @@ export const AboutMeDataEng = [{
         text: 'I actively use the latest game technologies, such as the financial game "Pocket" and "The Way of the Soul"'
     },
     {
+        text: 'I am practicing method of Access Bars and PSY2.0'
+    },
+    {
         text: 'I have been happily married and live in the sunny city of Brisbane, Australia.'
     }
 ];
